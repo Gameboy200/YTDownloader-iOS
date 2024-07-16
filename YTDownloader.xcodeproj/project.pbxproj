@@ -7,44 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1575721F582BE20003B888 /* dylibs in Resources */ = {isa = PBXBuildFile; fileRef = 1F1575711F582BE20003B888 /* dylibs */; };
+		DEADBEEF2F582BE20003B888 /* YTDownloader.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEADBEEF1F582BE20003B888 /* YTDownloader.xcframework */; };
+		
 		1FF8DBB11FBA9DE1009DE660 /* dummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8DBB01FBA9DE1009DE660 /* dummy.cpp */; };
 		D07CD44E1C5D589C00B7FB28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07CD44D1C5D589C00B7FB28 /* Images.xcassets */; };
 		D0BCFE4618AEBDA2004A7AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0BCFE4418AEBDA2004A7AAE /* InfoPlist.strings */; };
 		D0BCFE7818AEBFEB004A7AAE /* YTDownloader.pck in Resources */ = {isa = PBXBuildFile; fileRef = D0BCFE7718AEBFEB004A7AAE /* YTDownloader.pck */; };
-		DEADBEEF2F582BE20003B888 /* godot in Frameworks */ = {isa = PBXBuildFile; fileRef = DEADBEEF1F582BE20003B888 /* godot */; };
+		
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		90A13CD024AA68E500E8464F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
+				isa = PBXCopyFilesBuildPhase;
+				buildActionMask = 2147483647;
+				dstPath = "";
+				dstSubfolderSpec = 10;
+				files = (
+					
+				);
+				name = "Embed Frameworks";
+				runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F1575711F582BE20003B888 /* dylibs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dylibs; path = YTDownloader/dylibs; sourceTree = "<group>"; };
-		1FF4C1881F584E6300A41E41 /* YTDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YTDownloader.entitlements; sourceTree = "<group>"; };
+		1F1575711F582BE20003B888 /* dylibs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dylibs; path = "YTDownloader/dylibs"; sourceTree = "<group>"; };
+		DEADBEEF1F582BE20003B888 /* YTDownloader.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = godot; path = "YTDownloader.xcframework"; sourceTree = "<group>"; };
+		
+		1FF4C1881F584E6300A41E41 /* YTDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "YTDownloader.entitlements"; sourceTree = "<group>"; };
 		1FF8DBB01FBA9DE1009DE660 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dummy.cpp; sourceTree = "<group>"; };
 		D07CD44D1C5D589C00B7FB28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D0BCFE3418AEBDA2004A7AAE /* YTDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BCFE3418AEBDA2004A7AAE /* YTDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YTDownloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BCFE4318AEBDA2004A7AAE /* YTDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YTDownloader-Info.plist"; sourceTree = "<group>"; };
 		D0BCFE4518AEBDA2004A7AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D0BCFE7718AEBFEB004A7AAE /* YTDownloader.pck */ = {isa = PBXFileReference; lastKnownFileType = file; path = YTDownloader.pck; sourceTree = "<group>"; };
-		DEADBEEF1F582BE20003B888 /* godot */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = godot; path = YTDownloader.xcframework; sourceTree = "<group>"; };
+				D0BCFE7718AEBFEB004A7AAE /* YTDownloader.pck */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YTDownloader.pck"; sourceTree = "<group>"; };
+		
 /* End PBXFileReference section */
+
+		
 
 /* Begin PBXFrameworksBuildPhase section */
 		D0BCFE3118AEBDA2004A7AAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEADBEEF2F582BE20003B888 /* godot in Frameworks */,
+				DEADBEEF2F582BE20003B888 /* YTDownloader.xcframework */,
+				
+				
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +69,7 @@
 				D0BCFE4118AEBDA2004A7AAE /* YTDownloader */,
 				D0BCFE3618AEBDA2004A7AAE /* Frameworks */,
 				D0BCFE3518AEBDA2004A7AAE /* Products */,
+				
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +84,9 @@
 		D0BCFE3618AEBDA2004A7AAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DEADBEEF1F582BE20003B888 /* godot */,
+				DEADBEEF1F582BE20003B888 /* YTDownloader.xcframework */,
+				
+				
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,12 +94,13 @@
 		D0BCFE4118AEBDA2004A7AAE /* YTDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				
 				1FF4C1881F584E6300A41E41 /* YTDownloader.entitlements */,
 				D07CD44D1C5D589C00B7FB28 /* Images.xcassets */,
 				D0BCFE4218AEBDA2004A7AAE /* Supporting Files */,
 				1FF8DBB01FBA9DE1009DE660 /* dummy.cpp */,
 			);
-			path = YTDownloader;
+			path = "YTDownloader";
 			sourceTree = "<group>";
 		};
 		D0BCFE4218AEBDA2004A7AAE /* Supporting Files */ = {
@@ -114,7 +128,7 @@
 			);
 			dependencies = (
 			);
-			name = YTDownloader;
+			name = "YTDownloader";
 			productName = "Yt Downloader-iOS- Godot";
 			productReference = D0BCFE3418AEBDA2004A7AAE /* YTDownloader.app */;
 			productType = "com.apple.product-type.application";
@@ -129,7 +143,7 @@
 				ORGANIZATIONNAME = GodotEngine;
 				TargetAttributes = {
 					D0BCFE3318AEBDA2004A7AAE = {
-						DevelopmentTeam = 7QD97S9VUA;
+						DevelopmentTeam = 12345;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 						};
@@ -161,7 +175,9 @@
 			files = (
 				D07CD44E1C5D589C00B7FB28 /* Images.xcassets in Resources */,
 				D0BCFE7818AEBFEB004A7AAE /* YTDownloader.pck in Resources */,
+				
 				D0BCFE4618AEBDA2004A7AAE /* InfoPlist.strings in Resources */,
+				
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +199,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D0BCFE4518AEBDA2004A7AAE /* en */,
-			);
+							);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
@@ -194,10 +210,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					arm64,
-				);
+				ARCHS = "arm64";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -214,7 +227,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/**";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(PROJECT_DIR)/**",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -240,10 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					arm64,
-				);
+				ARCHS = "arm64";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -260,8 +272,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(PROJECT_DIR)/**",
+				);
 				ENABLE_NS_ASSERTIONS = NO;
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -280,21 +294,21 @@
 		D0BCFE7218AEBDA3004A7AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv7,
-					arm64,
-				);
+				ARCHS = "arm64";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = YTDownloader/YTDownloader.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "YTDownloader/YTDownloader.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = "Automatic";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				DEVELOPMENT_TEAM = 7QD97S9VUA;
+				DEVELOPMENT_TEAM = 12345;
 				INFOPLIST_FILE = "YTDownloader/YTDownloader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
@@ -311,21 +325,21 @@
 		D0BCFE7318AEBDA3004A7AAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv7,
-					arm64,
-				);
+				ARCHS = "arm64";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = YTDownloader/YTDownloader.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "YTDownloader/YTDownloader.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = "Automatic";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				DEVELOPMENT_TEAM = 7QD97S9VUA;
+				DEVELOPMENT_TEAM = 12345;
 				INFOPLIST_FILE = "YTDownloader/YTDownloader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
@@ -364,3 +378,4 @@
 	};
 	rootObject = D0BCFE2C18AEBDA2004A7AAE /* Project object */;
 }
+
